@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-container {
+    background-color: rgb(76, 60, 60);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-photo {
+    width: 120px;
+}
+
+.menus {
+    display: flex;
+
+}
+
+.items {
+    margin-right: 10px;
+    padding-right: 7px;
+    font-size: 20px;
+}
+
+/* making the items change color  */
+.items:hover {
+    color: green;
+}
+
+.logo-photo:hover {
+    background-color: black;
+    border: 1px solid none;
+    border-radius: 7px;
+}
+
+.banner-img {
+    width: 300px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    /* border: 2px solid black; */
+    background-image: url("./images/background.png"), linear-gradient(40deg, rgb(128, 221, 128), rgb(231, 160, 160));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.des {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.dn {
+    padding: 10px 50px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 6px;
+
+}
+
+.dn:hover {
+    background-color: red;
+    color: white;
+    font-family: cursive;
+
+}
+.abt-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 20px;
+
+}
+.hed{
+    text-align: center;
+    padding-top:15px;
+    font-size: 60px;
+    font-weight: bolder;
+
+}
+
+.box{
+    width: 250px;
+    height: 280px;
+    box-shadow: 4px 4px 50px gray;
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-radius: 16px;
+
+}
+
+.icon{
+    padding: 10px;
+    width:70px;
+     
+}
+.small-heading{
+    padding: 10px;
+
+}
+.small-des{
+    padding: 5px;
+
+}
+.service-con{
+    display: flex;
+    background-image: url(./images/background.png);
+    background-color: black;
+    justify-content: space-around;
+    padding: 20px;
+}
+.footer-con{
+    /* margin: 15px 25px ; */
+    padding: 15px 25px 30px 25px;
+
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+
+}
+.sec1{
+    color: white;
+}
+.sec2{
+    color: white;
+}
